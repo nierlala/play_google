@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 1040px;
+            height: 190px;
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+        
+        .box div {
+            width: 150px;
+            height: 150px;
+            margin-left: 20px;
+            margin-top: 20px;
+            float: left;
+        }
+        
+        .box1 p {
+            font-size: 188px;
+            line-height: 100px;
+            text-align: center;
+            margin-top: 21px;
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px rgb(66, 153, 244), 1px -1px rgb(66, 153, 244), -1px 1px rgb(66, 153, 244), -1px -1px rgb(66, 153, 244);
+        }
+        
+        .box2 p {
+            font-size: 141px;
+            line-height: 100px;
+            text-align: center;
+            margin-top: 41px;
+            color: white;
+            text-shadow: 1px 1px rgb(234, 67, 53), 1px -1px rgb(234, 67, 53), -1px 1px rgb(234, 67, 53), -1px -1px rgb(234, 67, 53);
+        }
+        
+        .box3 p {
+            font-size: 141px;
+            line-height: 100px;
+            text-align: center;
+            margin-top: 42px;
+            color: rgb(251, 188, 5);
+        }
+        
+        .box4 p {
+            font-size: 141px;
+            line-height: 100px;
+            text-align: center;
+            margin-top: 42px;
+            color: rgb(66, 153, 244);
+        }
+        
+        .box5 p {
+            font-size: 141px;
+            line-height: 100px;
+            text-align: center;
+            margin-top: 43px;
+            color: rgb(52, 168, 83);
+        }
+        
+        .box6 p {
+            font-size: 141px;
+            line-height: 100px;
+            text-align: center;
+            margin-top: 42px;
+            color: rgb(234, 67, 53);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            <p id="p1">G</p>
+        </div>
+        <div class="box2">
+            <p id="p2">o</p>
+        </div>
+        <div class="box3">
+            <p>o</p>
+        </div>
+        <div class="box4">
+            <p>g</p>
+        </div>
+        <div class="box5">
+            <p id="p5">l</p>
+        </div>
+        <div class="box6">
+            <p>e</p>
+        </div>
+    </div>
+    <script>
+        var p1 = document.getElementById("p1");
+        var p2 = document.getElementById("p2");
+        var p5 = document.getElementById("p5");
+        p5.onclick = function() {
+            p5.style.marginTop = "80px";
+            p1.style.color = "rgb(66, 153, 244)";
+            p2.style.color = "rgb(234, 67, 53)";
+        }
+    </script>
+</body>
+
+
+</html>
